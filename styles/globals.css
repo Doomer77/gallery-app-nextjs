@@ -1,26 +1,30 @@
+:root {
+  --black: #3b434e;
+  --gray-light: #ebebeb;
+  --gray-light-hover: rgba(33, 33, 33, 0.742);
+  --white: white;
+  --primary: #7653fc;
+  --primary-hover: rgba(18, 0, 88, 0.647);
+  --red: #fc836d;
+  --green: #1dc37e;
+  --green-light: #c8f8e4;
+  --font-family: "Noto Sans", sans-serif;
+}
+
 html,
 body {
- margin: 0;
- padding: 0;
- font-family:
-  -apple-system,
-  BlinkMacSystemFont,
-  'Segoe UI',
-  Roboto,
-  Oxygen,
-  Ubuntu,
-  Cantarell,
-  'Fira Sans',
-  'Droid Sans',
-  'Helvetica Neue',
-  sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  background: #e5e5e5;
+  font-family: var(--font-family);
 }
 
 a {
- text-decoration: none;
- color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 * {
- box-sizing: border-box;
+  box-sizing: border-box;
 }

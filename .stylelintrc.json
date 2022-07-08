@@ -2,8 +2,10 @@
   "extends": ["stylelint-config-standard"],
   "plugins": ["stylelint-order"],
   "rules": {
-    "indentation": [1],
-    "color-hex-case": "upper",
-    "string-quotes": "single"
+    "indentation": 2,
+    "color-hex-case": "lower",
+    "string-quotes": "double",
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number"
   }
 }
